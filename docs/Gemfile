@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
 # jekyll, which builds it all
 # 2.0 includes sass processing
-gem 'jekyll', '~>2.0'
+gem 'jekyll', '~> 3.9', '>= 3.9.0'
 
 # Auto redirect pages
-gem 'jekyll-redirect-from'
+gem 'jekyll-redirect-from', '>= 0.7.0'
 
 # JSON
-gem 'json'
+gem 'json', '>= 2.3.0'
 
 # For `rake watch`
 gem 'rb-fsevent'
 
 # For markdown header cleanup
-gem 'sanitize', '~>2.0'
+gem 'sanitize', '~> 4.6', '>= 4.6.3'
